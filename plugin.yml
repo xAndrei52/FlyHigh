@@ -1,0 +1,16 @@
+name: FlyHigh
+main: xAndrei52\Main
+version: 0.0.1
+api: [3.0.0, 3.11.5, 3.11.6]
+author: xAndrei52
+
+ commands:
+   fly:
+    permission: "flyhigh.command"
+    description: "Toggles Fly on/off"
+    
+permissions:
+    flyhigh.command:
+      default: op
+    flyhigh.command.other:
+      default: op
